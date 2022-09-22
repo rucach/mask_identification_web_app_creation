@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Pompiere&display=swap" rel="stylesheet">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+        <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    
+    <title>Mask identification web app</title>
+</head>
+<body>
+    <center>
+        <div id="maindiv">
+            <h1>Mask identification web app</h1>
+            <hr>
+            <div class="container">
+                <p>Model is trained to mask identification</p>
+                <button> proper mask | improper mask | no mask </button>
+                <br>
+                <hr id="h">
+            </div>
+        </div>
+        <div class="main">
+            <br>
+            <button class="button button1">Object : '
+                <span id="result_object"></span>
+            </button>
+            <br>
+            <br>
+            <br>
+            <button class="button button2">Acuracy : '
+                <span id="result_accuracy"></span>
+            </button>
+        </div>
+
+
+        <center>
+        <div class="creadit_person_name">
+            <p id="p">Developed by Arnaw Narain Yaduvanshi</p>
+        </div>
+        </center>
+    </center>
+
+    <script src="script.js"></script>
+</body>
+</html>

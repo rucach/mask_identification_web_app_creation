@@ -1,0 +1,29 @@
+#maindiv{
+    background-color:lightgreen;
+    border-radius:20px;
+    height:auto;
+    width:auto;
+}
+button{
+    background-color:aqua;
+    border-radius:2px;
+    width:auto;
+    height:auto;
+}
+#h{
+    width:90%;
+}
+body{
+    background-image:linear-gradient(to bottom left lightgreen, lightblue, grey, yellow, rgb(110, 70, 110), darkgrey)
+}
+p{
+    font-family:'Pompiere', cursive;
+    float:right;
+    position:sticky;
+    z-index:999999;
+    font-size:20px;
+    font-weight:900;
+}
+.creadit_person_name{
+    bottom:0;
+}
